@@ -1,0 +1,49 @@
+:root{
+    --primaryColor:#424761;
+    --secondryColor: #E20C0C;
+}
+
+
+
+section .card{
+    background-color:var(--primaryColor) ;
+    color: white;
+    position: relative;
+    margin: 10px;
+}
+.card .circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -20px;
+    right: 44px;
+    background-color: white;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card .circle i{
+    font-size: 26px;
+    color: var(--secondryColor);
+}
+img{
+    width: 100%;
+}
+.card .circleImg{
+    width: 80px;
+    height: 80px;
+border-radius: 50%;
+background-image: url(../images/download\ \(2\).jfif);
+background-size: cover;
+position: absolute;
+top:-40px;
+right: 44%;
+
+}
+.card .stars i{
+    color: yellow;
+    margin-top: 50px;
+}
